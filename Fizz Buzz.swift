@@ -39,7 +39,7 @@ https://leetcode.com/problems/fizz-buzz/description/
 
 import Foundation
 
-class Solution {
+extension Solution {
     func fizzBuzz(_ n: Int) -> [String] {
         
         var rs  = [String]()

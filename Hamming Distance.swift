@@ -31,7 +31,7 @@ import Foundation
 
  */
 
-class Solution {
+extension Solution {
     func hammingDistance(_ x: Int, _ y: Int) -> Int {
         guard x >= 0, y >= 0 else {
             return 0
