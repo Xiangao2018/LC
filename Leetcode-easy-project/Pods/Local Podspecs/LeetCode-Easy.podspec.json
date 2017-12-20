@@ -1,0 +1,28 @@
+{
+  "name": "Leetcode-easy",
+  "version": "0.0.1",
+  "summary": "Leetcode easy algorithm",
+  "description": "Leetcode easy algorithm, update everyDay",
+  "homepage": "https://github.com/Rsenjoyer/LeetCode-Easy",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "gaoxiang": "rsenjoyer@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Rsenjoyer/LeetCode-Easy.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Source",
+    "Source/*.swift"
+  ],
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
