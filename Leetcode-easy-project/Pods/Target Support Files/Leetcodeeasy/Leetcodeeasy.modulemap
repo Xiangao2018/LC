@@ -1,6 +1,0 @@
-framework module Leetcodeeasy {
-  umbrella header "Leetcodeeasy-umbrella.h"
-
-  export *
-  module * { export * }
-}

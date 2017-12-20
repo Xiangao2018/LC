@@ -5,7 +5,6 @@
 //  Created by admin on 2017/12/19.
 //  Copyright © 2017年 enjoy. All rights reserved.
 //
-
 import Foundation
 
 /**
@@ -28,7 +27,6 @@ import Foundation
  The above arrows point to positions where the corresponding bits are different.
  
  https://leetcode.com/problems/hamming-distance/
-
  */
 
 class Solution {
@@ -41,3 +39,4 @@ class Solution {
     }
 }
 
+print(Solution().hammingDistance(2, 4))

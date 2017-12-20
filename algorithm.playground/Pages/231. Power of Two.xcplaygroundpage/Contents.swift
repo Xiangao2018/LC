@@ -5,13 +5,11 @@
 //  Created by admin on 2017/12/20.
 //  Copyright © 2017年 enjoy. All rights reserved.
 //
-
 import Foundation
 
 /**
-    Given an integer, write a function to determine if it is a power of two.
-
-    https://leetcode.com/problems/power-of-two/description/
+ Given an integer, write a function to determine if it is a power of two.
+ https://leetcode.com/problems/power-of-two/description/
  */
 
 
@@ -20,3 +18,9 @@ class Solution {
         return (n >= 0) && (n & (n-1) == 0)
     }
 }
+
+print(Solution().isPowerOfTwo(8))
+print(Solution().isPowerOfTwo(7))
+print(Solution().isPowerOfTwo(6))
+
+//: [Next](@next)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='231. Power of Two'/>
+        <page name='412 Fizz Buzz'/>
+        <page name='461 Hamming Distance'/>
+        <page name='728. Self Dividing Numbers'/>
+    </pages>
+</playground>
