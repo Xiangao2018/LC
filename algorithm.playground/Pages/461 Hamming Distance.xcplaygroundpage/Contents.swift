@@ -30,13 +30,25 @@ import Foundation
  */
 
 class Solution {
+    
+    // Using >> op, Nice Solution
     func hammingDistance(_ x: Int, _ y: Int) -> Int {
-        guard x >= 0, y >= 0 else {
-            return 0
-        }
-        let result = String(x ^ y, radix: 2).filter { $0 == "1"}
-        return result.count
+        
+        let rs = x ^ y
+        if rs == 0 { return 0}
+        
+        return rs % 2 + hammingDistance(x>>1, y>>1)
     }
+    
+    
+// Solution Conver to string
+//    func hammingDistance(_ x: Int, _ y: Int) -> Int {
+//        guard x >= 0, y >= 0 else {
+//            return 0
+//        }
+//        let result = String(x ^ y, radix: 2).filter { $0 == "1"}
+//        return result.count
+//    }
 }
 
 print(Solution().hammingDistance(2, 4))
