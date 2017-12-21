@@ -7,6 +7,9 @@ LeetCode-Easy Problem Using Swift, Update EveryDay
 
 [461 Hamming Distance ](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Hamming%20Distance.swift)
 
+[665. Non-decreasing Array](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Non-decreasing%20Array.swift)
+
 [728. Self Dividing Numbers ](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Self%20Dividing%20Numbers.swift)
+
 
 
