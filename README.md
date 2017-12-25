@@ -1,6 +1,8 @@
 # LeetCode-Easy
 LeetCode-Easy Problem Using Swift, Update EveryDay
 
+[112. Path Sum ](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Path%20Sum.swift)
+
 [231. Power of Two ](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Power%20of%20Two.swift)
 
 [344. Reverse String](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Reverse%20String.swift)
