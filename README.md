@@ -7,6 +7,8 @@ LeetCode-Easy Problem Using Swift, Update EveryDay
 
 [461 Hamming Distance ](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Hamming%20Distance.swift)
 
+[561. Array Partition I](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Array%20Partition%20I.swift)
+
 [617. Merge Two Binary Trees](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Merge%20Two%20Binary%20Trees.swift)
 
 [657.Judge Route Circle](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Judge%20Route%20Circle.swift)
