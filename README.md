@@ -29,5 +29,9 @@ LeetCode-Easy Problem Using Swift, Update EveryDay
 
 [728. Self Dividing Numbers ](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Self%20Dividing%20Numbers.swift)
 
+[774. Find Smallest Letter Greater Than Target ](https://github.com/Rsenjoyer/LeetCode-Easy/blob/master/Source/Find%20Smallest%20Letter%20Greater%20Than%20Target.swift)
+
+
+
 
 
