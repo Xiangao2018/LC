@@ -12,8 +12,7 @@
 		84619FC220BAD87A0038709E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84619FC020BAD87A0038709E /* Main.storyboard */; };
 		84619FC420BAD87A0038709E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84619FC320BAD87A0038709E /* Assets.xcassets */; };
 		84619FC720BAD87A0038709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84619FC520BAD87A0038709E /* LaunchScreen.storyboard */; };
-		84619FD120BAD8BE0038709E /* Jewels and Stones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84619FD020BAD8BE0038709E /* Jewels and Stones.swift */; };
-		84619FD320BAD9420038709E /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84619FD220BAD9420038709E /* Solution.swift */; };
+		8473B26420BB962000A21417 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473B26320BB962000A21417 /* Solution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +23,7 @@
 		84619FC320BAD87A0038709E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84619FC620BAD87A0038709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84619FC820BAD87A0038709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84619FD020BAD8BE0038709E /* Jewels and Stones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jewels and Stones.swift"; sourceTree = "<group>"; };
-		84619FD220BAD9420038709E /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		8473B26320BB962000A21417 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +62,7 @@
 				84619FC320BAD87A0038709E /* Assets.xcassets */,
 				84619FC520BAD87A0038709E /* LaunchScreen.storyboard */,
 				84619FC820BAD87A0038709E /* Info.plist */,
-				84619FD020BAD8BE0038709E /* Jewels and Stones.swift */,
-				84619FD220BAD9420038709E /* Solution.swift */,
+				8473B26320BB962000A21417 /* Solution.swift */,
 			);
 			path = LeetCodeTestDemo;
 			sourceTree = "<group>";
@@ -142,10 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8473B26420BB962000A21417 /* Solution.swift in Sources */,
 				84619FBF20BAD87A0038709E /* ViewController.swift in Sources */,
 				84619FBD20BAD87A0038709E /* AppDelegate.swift in Sources */,
-				84619FD320BAD9420038709E /* Solution.swift in Sources */,
-				84619FD120BAD8BE0038709E /* Jewels and Stones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

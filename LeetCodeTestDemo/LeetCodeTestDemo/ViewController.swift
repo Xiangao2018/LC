@@ -12,10 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print(Solution.numJewelsInStones("aA", "aAAbbbb"))
     }
-
-
 }
 

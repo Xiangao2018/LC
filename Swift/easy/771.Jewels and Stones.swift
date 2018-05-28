@@ -34,7 +34,7 @@ import Foundation
 extension Solution {
     
     // 24 ms
-    class func numJewelsInStones(_ J: String, _ S: String) -> Int {
+    func numJewelsInStones(_ J: String, _ S: String) -> Int {
         
         let filters = S.filter { J.contains($0) }
         
