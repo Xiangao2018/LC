@@ -19,6 +19,8 @@ LeetCode-Easy Problem Using Swift, Update EveryDay
 
 [557. Reverse Words in a String III](https://github.com/Rsenjoyer/LeetCode-in-Swift/blob/master/Swift/easy/557.Reverse%20Words%20in%20a%20String%20III.swift)
 
+[561.Array Partition I](https://github.com/Rsenjoyer/LeetCode-in-Swift/blob/master/Swift/easy/561.Array%20Partition%20I.swift)
+
 [617. Merge Two Binary Trees](https://github.com/Rsenjoyer/LeetCode-in-Swift/blob/master/Swift/easy/617.Merge%20Two%20Binary%20Trees.swift)
 
 [657.Judge Route Circle](https://github.com/Rsenjoyer/LeetCode-in-Swift/blob/master/Swift/easy/657.Judge%20Route%20Circle.swift)
