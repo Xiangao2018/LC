@@ -18,7 +18,7 @@ import Foundation
  
  */
 
-class Solution {
+extension Solution {
     func reverseString(_ s: String) -> String {
         return String(s.reversed())
     }

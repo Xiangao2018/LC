@@ -26,7 +26,7 @@ import Foundation
  
  */
 
-class Solution {
+extension Solution {
     func judgeCircle(_ moves: String) -> Bool {
         
         var horizontalDirection = 0

@@ -31,7 +31,7 @@ import Foundation
 
  */
 
-class Solution {
+extension Solution {
     
     // Using >> op, Nice Solution
     func hammingDistance(_ x: Int, _ y: Int) -> Int {

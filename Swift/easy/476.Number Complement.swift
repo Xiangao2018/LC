@@ -28,7 +28,7 @@ import Foundation
  https://leetcode.com/problems/number-complement/description/
  */
 
-class Solution {
+extension Solution {
     func findComplement(_ num: Int) -> Int {
         var mask = 1
         while mask <= num { mask <<= 1 }

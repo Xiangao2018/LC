@@ -32,7 +32,7 @@ import Foundation
  
  */
 
-class Solution {
+extension Solution {
     func checkPossibility(_ nums: [Int]) -> Bool {
         guard !nums.isEmpty else {
             return true

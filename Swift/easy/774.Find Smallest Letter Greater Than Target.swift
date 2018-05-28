@@ -56,7 +56,7 @@ import Foundation
  
  */
 
-class Solution {
+extension Solution {
     func nextGreatestLetter(_ letters: [Character], _ target: Character) -> Character {
         guard letters.count > 2 else { fatalError("letter length Must > 2")}
     

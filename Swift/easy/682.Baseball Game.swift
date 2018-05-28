@@ -55,7 +55,7 @@ import Foundation
  
  */
 
-class Solution {
+extension Solution {
     
     func calPoints(_ ops: [String]) -> Int {
         

@@ -33,7 +33,7 @@ import Foundation
  
  */
 
-class Solution {
+extension Solution {
     func findWords(_ words: [String]) -> [String] {
         
         let keyBoardRows = ["qwertyuiop", "asdfghjkl", "zxcvbnm"]

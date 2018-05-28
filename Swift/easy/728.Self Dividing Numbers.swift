@@ -26,7 +26,7 @@ import Foundation
  The boundaries of each input argument are 1 <= left <= right <= 10000.
  */
 
-class Solution {
+extension Solution {
     func selfDividingNumbers(_ left: Int, _ right: Int) -> [Int] {
         if left > right { fatalError("left must lower than right") }
         if left < 1 { fatalError("the lowest left is 1") }

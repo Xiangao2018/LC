@@ -22,7 +22,7 @@ import Foundation
  https://leetcode.com/problems/reverse-words-in-a-string-iii/
  */
 
-class Solution {
+extension Solution {
     func reverseWords(_ s: String) -> String {
         let splitArr = s.components(separatedBy: " ")
         let reversedArr =  splitArr.map { String($0.reversed())}
