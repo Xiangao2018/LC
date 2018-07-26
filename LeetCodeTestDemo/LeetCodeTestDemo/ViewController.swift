@@ -56,6 +56,28 @@ extension Solution {
         }
         return result
     }
+    
+    // 3 无重复字符的最长子串
+    func lengthOfLongestSubstring(_ s: String) -> Int {
+        
+        guard s.isEmpty == false else { return 0 }
+        
+        var map = [Character: Int]()
+        
+        var forwardIndex = 0
+        
+        var aMax = 0
+        
+        for (index, ch) in s.enumerated() {
+            if let existIndex = map[ch] {
+                forwardIndex = max(forwardIndex, existIndex + 1)
+            }
+            map[ch] = index
+            aMax = max(aMax, index - forwardIndex + 1)
+        }
+        
+        return aMax
+    }
 }
 
 /**
@@ -69,7 +91,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        print(Solution().subsetsWithDup([1,1,1,2,2]))
+        print(Solution().lengthOfLongestSubstring("pwawpew"))
     }
 }
 
