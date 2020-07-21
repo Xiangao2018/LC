@@ -8,6 +8,7 @@
 
 import Foundation
 
+// 链表相关
 public class ListNode {
     public var val: Int
     public var next: ListNode?

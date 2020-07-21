@@ -20,4 +20,11 @@ class ViewController: UIViewController {
         
         self.navigationController?.pushViewController(TreeViewController(), animated: true)
     }
+
+
+    @IBAction func linkedList(_ sender: UIButton) {
+
+        self.navigationController?.pushViewController(LinkedListViewController(), animated: true)
+    }
+
 }

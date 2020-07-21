@@ -26,6 +26,7 @@
 
 [二分查找方法细节详解---推荐阅读](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/)
 
+[中等 - 95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) 动态规划、递归
 
 # LeetCode-easy
 

@@ -8,7 +8,13 @@
 
 import UIKit
 
-class ListNodeViewController: UIViewController {
+class LinkedListViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+        title = "Linked list"
+    }
 
     /// 206 -  反转链表 - 迭代方式 - 类似于头插法
     func reverseList01(_ head: ListNode?) -> ListNode? {

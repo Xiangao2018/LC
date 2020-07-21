@@ -14,7 +14,7 @@
 		8FDE728124C6DA4B0098E5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE727F24C6DA4B0098E5EC /* LaunchScreen.storyboard */; };
 		8FDE728924C6DA7C0098E5EC /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE728824C6DA7C0098E5EC /* TreeNode.swift */; };
 		8FDE728B24C6DAAF0098E5EC /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE728A24C6DAAF0098E5EC /* TreeViewController.swift */; };
-		8FDE729924C6F0100098E5EC /* ListNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729724C6F0100098E5EC /* ListNodeViewController.swift */; };
+		8FDE729924C6F0100098E5EC /* LinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729724C6F0100098E5EC /* LinkedListViewController.swift */; };
 		8FDE729A24C6F0100098E5EC /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729824C6F0100098E5EC /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		8FDE728224C6DA4B0098E5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDE728824C6DA7C0098E5EC /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		8FDE728A24C6DAAF0098E5EC /* TreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeViewController.swift; sourceTree = "<group>"; };
-		8FDE729724C6F0100098E5EC /* ListNodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNodeViewController.swift; sourceTree = "<group>"; };
+		8FDE729724C6F0100098E5EC /* LinkedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListViewController.swift; sourceTree = "<group>"; };
 		8FDE729824C6F0100098E5EC /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +62,6 @@
 		8FDE727324C6DA490098E5EC /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				8FDE729824C6F0100098E5EC /* ListNode.swift */,
-				8FDE729724C6F0100098E5EC /* ListNodeViewController.swift */,
 				8FDE727424C6DA490098E5EC /* AppDelegate.swift */,
 				8FDE727824C6DA490098E5EC /* ViewController.swift */,
 				8FDE727A24C6DA490098E5EC /* Main.storyboard */,
@@ -72,6 +70,8 @@
 				8FDE728224C6DA4B0098E5EC /* Info.plist */,
 				8FDE728824C6DA7C0098E5EC /* TreeNode.swift */,
 				8FDE728A24C6DAAF0098E5EC /* TreeViewController.swift */,
+				8FDE729824C6F0100098E5EC /* ListNode.swift */,
+				8FDE729724C6F0100098E5EC /* LinkedListViewController.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDE729924C6F0100098E5EC /* ListNodeViewController.swift in Sources */,
+				8FDE729924C6F0100098E5EC /* LinkedListViewController.swift in Sources */,
 				8FDE727924C6DA490098E5EC /* ViewController.swift in Sources */,
 				8FDE727524C6DA490098E5EC /* AppDelegate.swift in Sources */,
 				8FDE728B24C6DAAF0098E5EC /* TreeViewController.swift in Sources */,
