@@ -1,3 +1,32 @@
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ggx98ophyaj313i0u01i4.jpg)
+
+## 算法题解法归类
+
+[简单-206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)  -  迭代(类似于双指针)、递归（head.next.next = head, head.next = nil）
+
+[面试题 02.07. 链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/) - 双指针
+
+[简单- 剑指 Offer 06. 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) 
+
+[简单 - 面试题 02.06. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/)
+
+
+[中等-1171. 从链表中删去总和值为零的连续节点](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) - 迭代(双层,类似于双指针)
+
+[中等 - 面试题 02.08. 环路检测 ](https://leetcode-cn.com/problems/linked-list-cycle-lcci/) - 快慢指针
+
+
+[中 - 11 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) -  双指针解法 (while 循环)
+
+[中 - 15. 三数之和](https://leetcode-cn.com/problems/3sum/)  --- 排序 + 双指针算法 难点在于去重
+ 
+[简 - 26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)  -  双指针解答
+
+[简 - 27. 移除元素](https://leetcode-cn.com/problems/remove-element/) - 双指针解答
+
+[二分查找方法细节详解---推荐阅读](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/)
+
+
 # LeetCode-easy
 
 [112.Path Sum](https://github.com/Rsenjoyer/LeetCode-in-Swift/tree/master/Swift/easy/112.Path%20Sum.swift)
