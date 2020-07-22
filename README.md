@@ -28,6 +28,8 @@
 
 [中等 - 95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) 动态规划、递归
 
+[中等-153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/) 、[困难-154. 寻找旋转排序数组中的最小值 II - 二分查找法 ](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/)、[简单- 154. 寻找旋转排序数组中的最小值 II ](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)   二分查找法(☆ 无法从 left 开始寻找)   
+
 # LeetCode-easy
 
 [112.Path Sum](https://github.com/Rsenjoyer/LeetCode-in-Swift/tree/master/Swift/easy/112.Path%20Sum.swift)

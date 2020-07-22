@@ -140,6 +140,32 @@ class LinkedListViewController: UIViewController {
 
     }
 
+    /// 面试题 02.04. 分割链表 [see](https://leetcode-cn.com/problems/partition-list-lcci/)
+    /// ToDo
+    func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
+
+        var head = head
+        var tail = head
+
+        var curr = head?.next
+
+        while let node = curr {
+            let next = curr?.next
+            if node.val < x {
+                curr?.next = head
+                head = curr
+                curr = next
+            } else {
+                tail?.next = curr
+                tail = tail?.next
+            }
+            curr = next
+        }
+
+        tail?.next = nil
+
+        return head
+    }
 
 
     // MARK: --------
@@ -163,12 +189,8 @@ class LinkedListViewController: UIViewController {
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        // reverseList()
-        removeZeroSumSublists()
-
-
-
-
+        var node = partition(make([3, 5, 8, 5, 10, 2, 1]), 5)
+        printAllNodes(node)
     }
 }
 

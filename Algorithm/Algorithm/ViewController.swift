@@ -27,4 +27,9 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(LinkedListViewController(), animated: true)
     }
 
+    @IBAction func array(_ sender: UIButton) {
+
+        self.navigationController?.pushViewController(ArrayViewController(), animated: true)
+    }
+
 }
