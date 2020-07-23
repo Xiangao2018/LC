@@ -17,6 +17,8 @@
 		8FDE729924C6F0100098E5EC /* LinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729724C6F0100098E5EC /* LinkedListViewController.swift */; };
 		8FDE729A24C6F0100098E5EC /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729824C6F0100098E5EC /* ListNode.swift */; };
 		8FDE729E24C7C8110098E5EC /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729D24C7C8110098E5EC /* ArrayViewController.swift */; };
+		8FDE72A024C7DF340098E5EC /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729F24C7DF340098E5EC /* StackViewController.swift */; };
+		8FDE72CC24C918B90098E5EC /* DPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE72CB24C918B90098E5EC /* DPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		8FDE729724C6F0100098E5EC /* LinkedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListViewController.swift; sourceTree = "<group>"; };
 		8FDE729824C6F0100098E5EC /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		8FDE729D24C7C8110098E5EC /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
+		8FDE729F24C7DF340098E5EC /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		8FDE72CB24C918B90098E5EC /* DPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				8FDE729824C6F0100098E5EC /* ListNode.swift */,
 				8FDE729724C6F0100098E5EC /* LinkedListViewController.swift */,
 				8FDE729D24C7C8110098E5EC /* ArrayViewController.swift */,
+				8FDE729F24C7DF340098E5EC /* StackViewController.swift */,
+				8FDE72CB24C918B90098E5EC /* DPViewController.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -151,11 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FDE729924C6F0100098E5EC /* LinkedListViewController.swift in Sources */,
+				8FDE72A024C7DF340098E5EC /* StackViewController.swift in Sources */,
 				8FDE727924C6DA490098E5EC /* ViewController.swift in Sources */,
 				8FDE727524C6DA490098E5EC /* AppDelegate.swift in Sources */,
 				8FDE728B24C6DAAF0098E5EC /* TreeViewController.swift in Sources */,
 				8FDE729E24C7C8110098E5EC /* ArrayViewController.swift in Sources */,
 				8FDE728924C6DA7C0098E5EC /* TreeNode.swift in Sources */,
+				8FDE72CC24C918B90098E5EC /* DPViewController.swift in Sources */,
 				8FDE729A24C6F0100098E5EC /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

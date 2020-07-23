@@ -32,4 +32,8 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(ArrayViewController(), animated: true)
     }
 
+    @IBAction func dp(_ sender: UIButton) {
+
+        self.navigationController?.pushViewController(DPViewController(), animated: true)
+    }
 }
