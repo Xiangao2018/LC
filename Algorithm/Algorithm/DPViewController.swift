@@ -14,10 +14,34 @@ class DPViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         title = "DP"
-        // Do any additional setup after loading the view.
+
     }
 
-    // 64. 最小路径和
+    ///  322. 零钱兑换  - 动态规划
+    func coinChange(_ coins: [Int], _ amount: Int) -> Int {
+
+        // 1. 缓存的值
+        var dp = [Int](repeating: amount + 1, count: amount + 1)
+        dp[0] = 0
+
+        // 2. 初始值
+        // coin [1, 2, 3, 5]
+        for i in 0...amount {
+            for coin in coins {
+                if i - coin >= 0 {
+                    dp[i] = min(dp[i], dp[i - coin] + 1)
+                }
+            }
+        }
+
+        if dp[amount] > amount {
+            return -1
+        }
+        return dp[amount]
+    }
+
+
+    // 64. 最小路径和  -- 动态规划
     func minPathSum(_ grid: [[Int]]) -> Int {
 
         guard grid.isEmpty == false else { return 0 }

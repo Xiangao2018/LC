@@ -20,10 +20,10 @@ class CQueue {
         if stack02.isEmpty {}
 
     }
-
-    func deleteHead() -> Int {
-
-    }
+//
+//    func deleteHead() -> Int {
+//
+//    }
 }
 
 
