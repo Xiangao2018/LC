@@ -19,6 +19,8 @@
 		8FDE729E24C7C8110098E5EC /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729D24C7C8110098E5EC /* ArrayViewController.swift */; };
 		8FDE72A024C7DF340098E5EC /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE729F24C7DF340098E5EC /* StackViewController.swift */; };
 		8FDE72CC24C918B90098E5EC /* DPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE72CB24C918B90098E5EC /* DPViewController.swift */; };
+		8FE6926224E2E5D200867A44 /* TwoPointersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE6926124E2E5D200867A44 /* TwoPointersViewController.swift */; };
+		8FE6926424E2E7F500867A44 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FE6926324E2E7F500867A44 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		8FDE729D24C7C8110098E5EC /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
 		8FDE729F24C7DF340098E5EC /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		8FDE72CB24C918B90098E5EC /* DPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPViewController.swift; sourceTree = "<group>"; };
+		8FE6926124E2E5D200867A44 /* TwoPointersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointersViewController.swift; sourceTree = "<group>"; };
+		8FE6926324E2E7F500867A44 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		8FDE726824C6DA490098E5EC = {
 			isa = PBXGroup;
 			children = (
+				8FE6926324E2E7F500867A44 /* README.md */,
 				8FDE727324C6DA490098E5EC /* Algorithm */,
 				8FDE727224C6DA490098E5EC /* Products */,
 			);
@@ -81,6 +86,7 @@
 				8FDE729D24C7C8110098E5EC /* ArrayViewController.swift */,
 				8FDE729F24C7DF340098E5EC /* StackViewController.swift */,
 				8FDE72CB24C918B90098E5EC /* DPViewController.swift */,
+				8FE6926124E2E5D200867A44 /* TwoPointersViewController.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 			files = (
 				8FDE728124C6DA4B0098E5EC /* LaunchScreen.storyboard in Resources */,
 				8FDE727E24C6DA4B0098E5EC /* Assets.xcassets in Resources */,
+				8FE6926424E2E7F500867A44 /* README.md in Resources */,
 				8FDE727C24C6DA490098E5EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +172,7 @@
 				8FDE728924C6DA7C0098E5EC /* TreeNode.swift in Sources */,
 				8FDE72CC24C918B90098E5EC /* DPViewController.swift in Sources */,
 				8FDE729A24C6F0100098E5EC /* ListNode.swift in Sources */,
+				8FE6926224E2E5D200867A44 /* TwoPointersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

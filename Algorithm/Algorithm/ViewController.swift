@@ -36,4 +36,9 @@ class ViewController: UIViewController {
 
         self.navigationController?.pushViewController(DPViewController(), animated: true)
     }
+
+    @IBAction func twoPointers(_ sender: UIButton) {
+
+           self.navigationController?.pushViewController(TwoPointersViewController(), animated: true)
+       }
 }

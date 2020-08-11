@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mdv-ex-TEl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mdv-ex-TEl">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -56,11 +56,23 @@
                                     <action selector="dp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MJL-wp-Flt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnH-X1-MsU">
+                                <rect key="frame" x="0.0" y="334" width="414" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Rr-Nn-UAA"/>
+                                </constraints>
+                                <state key="normal" title="Two Pointers"/>
+                                <connections>
+                                    <action selector="twoPointers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z4u-Ae-Gmn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="k7S-zr-NVo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Cf-XO-ryw"/>
                             <constraint firstItem="k7S-zr-NVo" firstAttribute="top" secondItem="U4F-X2-gKB" secondAttribute="bottom" constant="20" id="0s1-vs-LU0"/>
+                            <constraint firstItem="fnH-X1-MsU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1PM-78-v1P"/>
+                            <constraint firstItem="fnH-X1-MsU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9T5-eO-iD1"/>
                             <constraint firstItem="c3f-Yj-jPM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="C9k-fe-oMs"/>
                             <constraint firstItem="BgF-2U-QwZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CuC-Ap-4li"/>
                             <constraint firstItem="k7S-zr-NVo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PKK-RC-mYx"/>
@@ -70,6 +82,7 @@
                             <constraint firstItem="BgF-2U-QwZ" firstAttribute="top" secondItem="k7S-zr-NVo" secondAttribute="bottom" constant="20" id="cCf-Sr-4tA"/>
                             <constraint firstItem="c3f-Yj-jPM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f2f-mB-f7Y"/>
                             <constraint firstItem="BgF-2U-QwZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nyg-3K-5fp"/>
+                            <constraint firstItem="fnH-X1-MsU" firstAttribute="top" secondItem="BgF-2U-QwZ" secondAttribute="bottom" constant="18" id="pr5-nQ-0xE"/>
                             <constraint firstItem="U4F-X2-gKB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xl6-AG-asI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

@@ -32,6 +32,8 @@
 
 [中等 - 64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)  动态规划
 
+[中等- 19. 删除链表的倒数第N个节点]( https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)  - 双指针
+
 # LeetCode-easy
 
 [112.Path Sum](https://github.com/Rsenjoyer/LeetCode-in-Swift/tree/master/Swift/easy/112.Path%20Sum.swift)
